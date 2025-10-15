@@ -5,6 +5,5 @@ def twoSum(nums: List[int], target: int) -> List[int]:
     for i in range(count):
         for j in range(i+1,count):
             if nums[i]+nums[j]==target:
-                ans=[i,j]
-        
-    return ans
+                return [i,j]
+    return 0
